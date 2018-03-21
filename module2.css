@@ -1,47 +1,52 @@
 /*it works*/
 * {
   box-sizing: border-box;
+  padding: 15px;
 }
 h1 {
     margin-top: 35px;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 text-align: center;
 
 }
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
+  background-color: #808080;
+  width: 100%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
-}
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 33.33%;
-  }
-  .col-lg-2 {
-    width: 66.66%;
-  }
-  .col-lg-3 {
-    width: 99.99%;
-  }
+  font-style: normal;
+  font-weight: bold;
+  outline-style: solid;
+
+
 
 }
-/********** Medium devices only **********/
+/* Simple Responsive Framework. */
+
+/********** Large devices only *********/
+@media (min-width: 1200px) {
+  .col-1, .col-2, .col-3 {
+
+    float: left;
+    border: 50px ;
+
+  }
+  .col-1 {
+    width: 33.33%;
+  }
+  .col-2 {
+    width: 33.33%;
+  }
+  .col-3 {
+    width: 33.33%;
+  }
+
+
+/********** Medium devices only *********
 @media (min-width: 950px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3 {
     float: left;
     border: 1px solid green;
   }
@@ -81,4 +86,3 @@ p {
   .col-md-12 {
     width: 100%;
   }*/
-}
