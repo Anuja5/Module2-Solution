@@ -23,26 +23,28 @@ p {
   padding: 10px;
 }
 
-lable{
+label{
     outline: solid;
+ /* border: 1px #000000;*/
     text-align: center;
     float: right;
     width: 100px;
     font-weight: bold;
     margin-top: 0;
+    padding: 1px;
 }
 
-.lable1 {
+.label1 {
 
-  background-color: #ffccff;
-
-}
-.lable2 {
-
-  background-color: #ff0000;
+  background-color: #FFB6C1;
 
 }
-.lable3 {
+.label2 {
+
+  background-color: #DC143C;
+
+}
+.label3 {
 
   background-color: #ffff66;
 }
